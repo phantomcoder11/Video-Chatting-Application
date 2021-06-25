@@ -1,0 +1,28 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Dhritiraj Borah",
+  "license": "ISC",
+  "dependencies": {
+    "@heroku/buildpack-registry": "^1.0.1",
+    "async-file": "^2.0.2",
+    "cli-ux": "^4.9.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "got": "^8.3.2",
+    "heroku": "^7.54.0",
+    "node": "^16.1.0",
+    "peer": "^0.6.1",
+    "phoenix": "^1.5.9",
+    "socket.io": "^4.1.2",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "15.x"
+  }
+}
